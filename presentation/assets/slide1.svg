@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title desc">
+  <title id="title">HepatoSense Professional Logo</title>
+  <desc id="desc">A modern professional logo for HepatoSense with an abstract liver icon and clean wordmark.</desc>
+
+  <defs>
+    <!-- gradient for liver -->
+    <linearGradient id="grad-liver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF6B6B"/>
+      <stop offset="1" stop-color="#E63946"/>
+    </linearGradient>
+    <!-- gradient for circuit lines -->
+    <linearGradient id="grad-circuit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Abstract liver icon -->
+  <g transform="translate(80,80)">
+    <path d="M220 40c-38-10-100 10-140 50-40 40-52 88-28 124 24 36 78 54 126 46 48-8 96-40 118-80 22-40 12-86-22-112-16-14-34-22-54-28z"
+          fill="url(#grad-liver)" stroke="#d62f44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Circuit lines -->
+    <g stroke="url(#grad-circuit)" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M120 120 C150 100, 190 100, 210 120"/>
+      <circle cx="120" cy="120" r="5" fill="url(#grad-circuit)" stroke="none"/>
+      <circle cx="210" cy="120" r="5" fill="url(#grad-circuit)" stroke="none"/>
+      <path d="M150 150 L180 170"/>
+      <circle cx="150" cy="150" r="4" fill="#06B6D4"/>
+      <circle cx="180" cy="170" r="4" fill="#14B8A6"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(360,200)">
+    <!-- Hepato -->
+    <text x="30" y="0" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" fill="#2bcd6cff">
+      Hepato
+    </text>
+    <!-- Sense -->
+    <text x="280" y="0" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" fill="#06B6D4">
+      Sense
+    </text>
+    <!-- tagline -->
+    <text x="40" y="50" font-family="Inter, Arial, sans-serif" font-size="26" fill="#dea217ff">
+      Your Partner in Workforce Wellbeing
+    </text>
+  </g>
+</svg>
